@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1e1e2f;
+  border-bottom: 1px solid #111;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.header-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.header-nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.logout-button {
+  background-color: #f05454;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
